@@ -1,0 +1,10 @@
+---
+- name: Build Instance
+  hosts: localhost
+  tasks:
+    - name: create file
+      file: path=/tmp/testfile 
+        owner=root
+        group=root
+        mode=0777
+        state=file
