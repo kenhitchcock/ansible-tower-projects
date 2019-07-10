@@ -1,0 +1,10 @@
+---
+
+- name: Install AWS cli
+  hosts: localhost 
+
+  tasks:
+    - name: "Playbook to install aws cli"
+      include_role:
+        name: ../roles/ansible-role-awscli
+

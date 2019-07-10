@@ -1,3 +1,7 @@
 - src: https://github.com/kenhitchcock/ansible-role-cornerstone
   version: master 
   name: ansible-role-cornerstone
+
+- src: https://github.com/kenhitchcock/ansible-role-awscli
+  version: master 
+  name: ansible-role-awscli
