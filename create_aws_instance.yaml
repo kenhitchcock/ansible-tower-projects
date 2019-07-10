@@ -1,8 +1,7 @@
 ---
-
 - name: Build Instance  
-  
+  hosts: localhost  
   tasks:
-    - include_role:
+    - name: "Include the cornerstone role to create aws instances"
+      include_role:
         name: ../roles/ansible-role-cornerstone
-
