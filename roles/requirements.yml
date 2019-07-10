@@ -1,0 +1,3 @@
+- src: https://github.com/kenhitchcock/ansible-role-cornerstone
+  version: master 
+  name: ansible-role-cornerstone
