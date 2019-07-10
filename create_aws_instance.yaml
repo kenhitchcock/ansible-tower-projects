@@ -1,0 +1,8 @@
+---
+
+- name: Build Instance  
+  
+  tasks:
+    - include_role:
+        name: ../roles/ansible-role-cornerstone
+
