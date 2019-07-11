@@ -13,3 +13,7 @@
 - src: https://github.com/kenhitchcock/ansible-role-satellite-cultivator
   version: master 
   name: ansible-role-satellite-cultivator
+
+- src: https://github.com/kenhitchcock/ansible-role-ocp-prereqs
+  version: master 
+  name: ansible-role-ocp-prereqs
