@@ -9,3 +9,7 @@
 - src: https://github.com/kenhitchcock/ansible-role-redhat-register
   version: master 
   name: ansible-role-redhat-register
+
+- src: https://github.com/kenhitchcock/ansible-role-satellite-cultivator
+  version: master 
+  name: ansible-role-satellite-cultivator
