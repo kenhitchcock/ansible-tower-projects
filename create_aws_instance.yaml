@@ -8,6 +8,7 @@
 
 - name: "Operating system tasks"
   hosts: TestSystem
+  become: yes
   tasks:
     - name: "Include the Register to Red Hat role"
       include_role:
