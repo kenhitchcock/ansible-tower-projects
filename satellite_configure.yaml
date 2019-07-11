@@ -8,8 +8,6 @@
 
 - name: Configure Operating systems
   hosts: satellite
-  become: true
-
   tasks:
     - include_role:
         name: ../roles/ansible-role-redhat-register
@@ -19,7 +17,6 @@
 - name: Install Satellite
   hosts: satellite
   become: true
-
   tasks:
     - include_role:
         name: ../roles/ansible-role-satellite-cultivator
