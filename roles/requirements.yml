@@ -5,3 +5,7 @@
 - src: https://github.com/kenhitchcock/ansible-role-awscli
   version: master 
   name: ansible-role-awscli
+
+- src: https://github.com/kenhitchcock/ansible-role-redhat-register
+  version: master 
+  name: ansible-role-redhat-register
