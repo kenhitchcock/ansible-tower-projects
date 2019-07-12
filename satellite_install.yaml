@@ -1,0 +1,24 @@
+---
+
+- name: Build VMs Ready for use 
+  hosts: localhost
+  tasks:
+    - include_role:
+        name: ../roles/ansible-role-cornerstone
+
+- name: Configure Operating systems
+  hosts: satellite
+  tasks:
+    - include_role:
+        name: ../roles/ansible-role-redhat-register
+
+    - include_role:
+        name: ../roles/ansible-role-disk-part
+
+- name: Install Satellite
+  hosts: satellite
+  become: true
+  tasks:
+    - include_role:
+        name: ../roles/ansible-role-satellite-install
+

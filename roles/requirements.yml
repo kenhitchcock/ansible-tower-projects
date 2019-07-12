@@ -10,6 +10,10 @@
   version: master 
   name: ansible-role-redhat-register
 
+- src: https://github.com/kenhitchcock/ansible-role-satellite-install
+  version: master 
+  name: ansible-role-satellite-install
+
 - src: https://github.com/kenhitchcock/ansible-role-satellite-cultivator
   version: master 
   name: ansible-role-satellite-cultivator
@@ -17,3 +21,7 @@
 - src: https://github.com/kenhitchcock/ansible-role-ocp-prereqs
   version: master 
   name: ansible-role-ocp-prereqs
+
+- src: https://github.com/kenhitchcock/ansible-role-disk-part
+  version: master 
+  name: ansible-role-disk-part
