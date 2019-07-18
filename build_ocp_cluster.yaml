@@ -7,14 +7,14 @@
         name: ../roles/ansible-role-cornerstone
 
 - name: "Operating system tasks"
-  hosts: Openshift
+  hosts: OpenShift
   tasks:
     - name: "Include the Register to Red Hat role"
       include_role:
         name: ../roles/ansible-role-redhat-register
 
 - name: "Operating system tasks"
-  hosts: Openshift
+  hosts: OpenShift
   tasks:
     - name: "Include the role to do ocp prereqs"
       include_role:
